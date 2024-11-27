@@ -3,7 +3,7 @@ const axios = require("axios");
 
 const userRoot = "/storage/";
 const maxRetries = 5;
-const retryDelay = 2000; // 2 seconds
+const retryDelay = 3000; // 2 seconds
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
